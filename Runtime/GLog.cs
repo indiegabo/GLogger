@@ -3,42 +3,45 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-public class GLog : GLogger
+namespace IndieGabo.GLogger
 {
-    public static GLog I;
-
-    protected virtual void Awake()
+    public class GLog : GLogger
     {
-        I = this;
-    }
+        public static GLog I;
 
-    public void Log(string message, Object sender = null)
-    {
-        DoLog(message, color: whiteHEX, sender: sender);
-    }
+        protected virtual void Awake()
+        {
+            I = this;
+        }
 
-    public void Success(string message, Object sender = null)
-    {
-        DoLog(message, successHEX, sender);
-    }
+        public void Log(string message, Object sender = null)
+        {
+            DoLog(message, color: whiteHEX, sender: sender);
+        }
 
-    public void Warning(string message, Object sender = null)
-    {
-        DoLog(message, warningHEX, sender);
-    }
+        public void Success(string message, Object sender = null)
+        {
+            DoLog(message, successHEX, sender);
+        }
 
-    public void Danger(string message, Object sender = null)
-    {
-        DoLog(message, dangerHEX, sender);
-    }
+        public void Warning(string message, Object sender = null)
+        {
+            DoLog(message, warningHEX, sender);
+        }
 
-    [MenuItem("GameObject/GLoggers/Main")]
-    public static void CreateSeparator(MenuCommand menuCommand)
-    {
-        GameObject logger = new GameObject("GLog");
-        logger.AddComponent<GLog>();
-        GameObjectUtility.SetParentAndAlign(logger, menuCommand.context as GameObject);
-        Undo.RegisterCreatedObjectUndo(logger, "Create " + logger.name);
-        Selection.activeObject = logger;
+        public void Danger(string message, Object sender = null)
+        {
+            DoLog(message, dangerHEX, sender);
+        }
+
+        [MenuItem("GameObject/GLogger/GLog")]
+        public static void CreateSeparator(MenuCommand menuCommand)
+        {
+            GameObject logger = new GameObject("GLog");
+            logger.AddComponent<GLog>();
+            GameObjectUtility.SetParentAndAlign(logger, menuCommand.context as GameObject);
+            Undo.RegisterCreatedObjectUndo(logger, "Create " + logger.name);
+            Selection.activeObject = logger;
+        }
     }
 }
