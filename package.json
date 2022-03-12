@@ -1,0 +1,14 @@
+{
+    "name": "com.indiegabo.glogger",
+    "version": "0.1.0",
+    "description": "A handy logger for you and your project",
+    "displayName": "GLogger",
+    "unity": "2020.3",
+    "author": "IndieGabo",
+    "hideInEditor": true,
+    "keywords": [
+        "Log",
+        "Logger",
+        "Debug"
+    ]
+}
