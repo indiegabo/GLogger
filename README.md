@@ -15,7 +15,7 @@ The GLogger package allows you to add and object into your hierarchy wich will h
 
 ## How to Use
 
-1. Left click on Hierarchy panel and chose GLogger -> GLog
+1. Right click on Hierarchy panel and chose GLogger -> GLog
 2. Choose your colors
 3. Log a message through code!
 
