@@ -1,5 +1,5 @@
 <p align="right">
-  Read in <a href="https://github.com/indiegabo/rela3">English</a>
+  Read in <a href="https://github.com/indiegabo/GLogger">English</a>
 </p>
 
 # GLogger - Um logger útil para Unity
