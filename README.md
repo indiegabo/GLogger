@@ -88,10 +88,7 @@ For the moment i do not aknowledge other editors or IDEs snippets crafting. If y
 
 ## Where to find me
 
-- Join our friendly [Discord](https://discord.gg/uvgWxNPk) server
-- Streaming on [Twitch](https://twitch.tv/indiegabo_dev)
-- [Instagram](https://instagram.com/indiegabo)
-- [Twitter](https://twitter.com/indiegabo)
+https://indiegabo.com
 
 ## Thanks and references
 
