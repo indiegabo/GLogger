@@ -43,7 +43,7 @@ GLog.I?.Success("Aeeeee! Funfou essa bagaça!");
 GLog.I?.Warning("Cuidado ae viu? Tá dando ruim");
 ```
 
-##### Mensagem Perigo
+##### Mensagem de Perigo
 
 ```csharp
 GLog.I?.Danger("É, deu ruim! =/");
