@@ -37,13 +37,13 @@ GLog.I?.Log("Uma mensagem menos blé. Mas blé do mesmo jeito.");
 GLog.I?.Success("Aeeeee! Funfou essa bagaça!");
 ```
 
-##### Alerta
+##### Mensagem de Alerta
 
 ```csharp
 GLog.I?.Warning("Cuidado ae viu? Tá dando ruim");
 ```
 
-##### Perigo
+##### Mensagem Perigo
 
 ```csharp
 GLog.I?.Danger("É, deu ruim! =/");
