@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-namespace IndieGabo.GLogger
+namespace Gabo.GLogger
 {
     public class GLog : GLogger
     {

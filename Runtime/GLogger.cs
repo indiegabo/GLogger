@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace IndieGabo.GLogger
+namespace Gabo.GLogger
 {
     public abstract class GLogger : MonoBehaviour
     {
