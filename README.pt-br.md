@@ -6,6 +6,12 @@
 
 Esse pacote te permite adicionar um objeto na sua hierarquia que irá conduzir as mensagens de log do seu projeto. Com ele você poderá ligar e desligar as mensagens, assim como escolher suas cores.
 
+## Video explicativo
+
+Se liga no vídeo que fiz para o YouTube para ensinar como usar:
+
+[![IMAGE ALT TEXT HERE](https://i.ibb.co/HttVn5Q/thumbnail.png)](https://www.youtube.com/watch?v=UGMKJ--jRqQ)
+
 ## Instalando
 
 1. Abra o package manager

@@ -6,6 +6,12 @@
 
 The GLogger package allows you to add and object into your hierarchy wich will handle logging messages for you allowing you to turn logging On and Off as well as choosing messages colors.
 
+## How to video
+
+Checkout the youtube video i've made to explain you how to use it (Pt-BR spoken)
+
+[![IMAGE ALT TEXT HERE](https://i.ibb.co/HttVn5Q/thumbnail.png)](https://www.youtube.com/watch?v=UGMKJ--jRqQ)
+
 ## Installing
 
 1. Open package manager
