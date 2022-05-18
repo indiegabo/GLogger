@@ -16,6 +16,8 @@ public abstract class GLogger : MonoBehaviour
     [SerializeField] protected Color m_warningColor = Color.yellow; // Yellow
     [SerializeField] protected Color m_dangerColor = Color.red; // Red
 
+    protected static GameObject m_logger;
+
     /// <summary>
     /// The success color's Hexadecimal code
     /// </summary>
@@ -60,5 +62,16 @@ public abstract class GLogger : MonoBehaviour
         {
             Debug.Log($"<color={color}> {message} </color>");
         }
+    }
+
+    public static GameObject FindOrInstantiate<T>(){
+        var loggerName = typeof(T).Name;
+        m_logger = GameObject.Find(loggerName);
+        if (!m_logger) { m_logger = new GameObject(loggerName); }
+
+        var log = m_logger.GetComponent<T>();
+        if (log != null) { m_logger.AddComponent(typeof(T)); }
+
+        return m_logger;
     }
 }
